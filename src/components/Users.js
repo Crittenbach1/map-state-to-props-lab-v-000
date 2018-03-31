@@ -5,7 +5,7 @@ export class Users extends Component {
 
   render() {
 
-    const listUsers = this.props.users.map((user) => 
+    const listUsers = this.props.users.map((user) =>
     <li>{user.userName} - {user.hometown}</li>
     );
 
